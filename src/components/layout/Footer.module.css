@@ -1,11 +1,21 @@
 .footer {
+  box-shadow: 0px -1px 15px #c0c0c0;
   bottom: 0;
   height: 50px;
   display: flex;
   align-items: center;
-  position: fixed;
-  bottom: 0;
-  justify-content: center;
-  background-color: #eee;
+  background-color: rgb(23, 71, 158);
   width: 100%;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.copy {
+  width: 33%;
+  text-align: center;
+}
+
+.name {
+  width: 33%;
+  padding-left: 10px;
 }

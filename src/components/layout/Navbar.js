@@ -15,7 +15,9 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.navbar_logo}>
         <img src={Logo} alt="logo" />
-        <h2>Get A Pet</h2>
+        <h2>
+          <span className={styles.adotz}>A</span>dotz
+        </h2>
       </div>
       <ul>
         <li>
@@ -23,6 +25,9 @@ function Navbar() {
         </li>
         {authenticated ? (
           <>
+            <li>
+              <Link to="/user/profile">Perfil</Link>
+            </li>
             <li onClick={logout}>Sair</li>
           </>
         ) : (

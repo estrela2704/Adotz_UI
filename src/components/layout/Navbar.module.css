@@ -1,9 +1,14 @@
+.adotz {
+  color: rgb(23, 71, 158);
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 1em 1.5em;
-  background-color: #ffd400;
-  color: #16479d;
+  background-color: #fff;
+  border-bottom: 1px solid #c0c0c0;
+  color: rgb(249, 168, 112);
 }
 
 .navbar_logo {
@@ -25,7 +30,7 @@
 .navbar li,
 .navbar a {
   text-decoration: none;
-  color: #16479d;
+  color: rgb(23, 71, 158);
   font-weight: bold;
   cursor: pointer;
   transition: 0.5s;
@@ -34,7 +39,9 @@
 }
 
 .navbar li:hover {
-  background-color: #16479d;
+  background-color: rgb(23, 71, 158);
+  margin: 0 5px;
+  color: #fff;
 }
 
 .navbar li:hover > a {

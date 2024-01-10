@@ -3,10 +3,13 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <p>
-        <span className="bold">Get A Pet</span> &copy; 2023
-        <small>Desenvolvido por Felipe Estrela de Albuquerque </small>
-      </p>
+      <div className={styles.name}>
+        <small> Desenvolvido por Felipe Estrela de Albuquerque </small>
+      </div>
+      <div className={styles.copy}>
+        <span className="bold">Adotz</span> &copy; 2023
+      </div>
+      <div className={styles.copy}></div>
     </footer>
   );
 }
