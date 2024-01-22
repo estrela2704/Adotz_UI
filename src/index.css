@@ -17,5 +17,10 @@ h1 {
 
 .bold {
   font-weight: bold;
+  color: rgb(23, 71, 158);
+}
+
+.yellow {
   color: rgb(249, 168, 112);
+  font-weight: bold;
 }

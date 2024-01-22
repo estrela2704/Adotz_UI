@@ -7,7 +7,7 @@ function Footer() {
         <small> Desenvolvido por Felipe Estrela de Albuquerque </small>
       </div>
       <div className={styles.copy}>
-        <span className="bold">Adotz</span> &copy; 2023
+        <span className="yellow">Adotz</span> &copy; 2023
       </div>
       <div className={styles.copy}></div>
     </footer>

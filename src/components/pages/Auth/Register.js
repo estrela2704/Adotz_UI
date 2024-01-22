@@ -41,7 +41,7 @@ function Register() {
 
         <Input
           text="Email"
-          type="Text"
+          type="email"
           name="email"
           placeholder="Digite seu e-mail"
           handleOnChange={HandleChange}

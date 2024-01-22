@@ -6,6 +6,7 @@ function Input({
   text,
   placeholder,
   handleOnChange,
+  acceptV,
   value,
   multiple,
 }) {
@@ -16,6 +17,7 @@ function Input({
         type={type}
         name={name}
         id={name}
+        accept={acceptV}
         placeholder={placeholder}
         onChange={handleOnChange}
         value={value}
