@@ -12,3 +12,8 @@ Obs: Se precisar alterar a porta padrão, você pode fazê-lo especificando expl
 Por exemplo: "npm start -- --port 4000 ".
 
 Pronto! Sua interface estará pronta para uso.
+
+
+## Autor
+
+- Felipe Estrela de Albuquerque
