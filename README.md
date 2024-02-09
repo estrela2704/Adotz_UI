@@ -1,6 +1,6 @@
 # Adotz
 
-Interface de Usuário criada para consumir a API GET_A_PET, para utilizar basta ter o NodeJS e o NPM instalados em seu servidor.
+Interface de Usuário criada para consumir a API ADOTZ, para utilizar basta ter o NodeJS e o NPM instalados em seu servidor.
 
 ## Instalação
 1. Clonar o repositório em seu ambiente.
